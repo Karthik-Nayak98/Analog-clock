@@ -4,11 +4,15 @@ secondHand = document.querySelector('.seconds');
 minuteHand = document.querySelector('.minutes');
 hourHand = document.querySelector('.hours');
 toggleSwitch = document.querySelector('.toggle-switch');
+moonIcon = document.querySelector('.fa-moon');
+sunIcon = document.querySelector('.fa-sun');
 
 toggleSwitch.addEventListener('click', function () {
   toggleSwitch.classList.toggle('dark-mode');
   const html = document.getElementsByTagName('html')[0];
   html.classList.toggle('dark');
+  sunIcon.classList.toggle('sun');
+  moonIcon.classList.toggle('moon');
 });
 
 function rotateSecondHand(second) {
