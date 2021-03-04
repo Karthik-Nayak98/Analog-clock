@@ -39,6 +39,7 @@ body {
   background-color: #ccc;
   transition: 0.3s all linear;
 }
+
 .dark-mode {
   background-color: #f5493e;
 }
@@ -168,7 +169,6 @@ i {
 }
 
 .digital-time {
-  font-size: 1.5em;
-  /* color: #777; */
-  margin: 10px;
+  font-size: 1.8em;
+  margin: 2em;
 }
