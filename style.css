@@ -59,11 +59,11 @@ i {
 }
 
 .sun {
-  display: initial;
+  display: inline;
 }
 
 .fa-moon {
-  display: initial;
+  display: inline;
   right: 2px;
   color: white;
 }
