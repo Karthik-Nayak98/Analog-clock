@@ -54,21 +54,13 @@ i {
 }
 
 .fa-sun {
-  display: none;
   left: 2px;
-}
-
-.sun {
-  display: inline;
 }
 
 .fa-moon {
   display: inline;
   right: 2px;
   color: white;
-}
-.moon {
-  display: none;
 }
 
 .analog-time {
